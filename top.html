@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ashwin Kumaran - Header</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #1e293b;
+            color: white;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            overflow: hidden; /* Keeps header static */
+        }
+
+        .header {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            padding: 10px 30px;
+        }
+
+        .profile-pic {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 3px solid #cbd5f5;
+            object-fit: cover;
+            object-position: 60% 20%;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+
+        h3 {
+            margin: 4px 0 8px 0;
+            font-weight: normal;
+            font-size: 16px;
+            color: #38bdf8; /* Light blue accent */
+        }
+
+        .contact-details {
+            font-size: 13px;
+            color: #94a3b8;
+            margin-bottom: 10px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .contact-details span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #cbd5f5;
+            font-weight: bold;
+            font-size: 14px;
+            border: 1px solid #cbd5f5;
+            padding: 5px 12px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .links a:hover {
+            background-color: #cbd5f5;
+            color: #1e293b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="card">
+            <img src="profile.jpg" alt="Ashwin Kumaran" class="profile-pic"> 
+            
+            <div class="info">
+                <h1>Ashwin Kumaran</h1>
+                <h3>Full Stack Software Developer</h3>
+                
+                <div class="contact-details">
+                    <span>Krishangiri, Tamil Nadu </span>
+                    <span>|</span>
+                    <span>ashprogrammer01@gmail.com </span>
+                    <span>|</span>
+                    <span>+91 8056314297 </span>
+                </div>
+
+                <div class="links">
+                    <a href="https://github.com/Ashprogrammer07" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/ashwin-kumaran-92b6b831b" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
