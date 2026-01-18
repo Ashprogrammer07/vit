@@ -7,27 +7,60 @@
             margin: 0;
             font-family: Arial, sans-serif;
             padding: 30px;
-            background-color: #ffffff;
-            color: #1f2937;
+            /* Dark Theme Background matching main content */
+            background-color: #1e293b;
+            color: #e2e8f0;
         }
+
         h2 {
-            color: #2563eb;
-            margin-bottom: 20px;
+            color: #38bdf8; /* Cyan accent */
+            margin-bottom: 25px;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-size: 18px;
         }
-        .edu {
-            margin-bottom: 22px;
+
+        .edu-block {
+            margin-bottom: 30px;
+            background-color: #33415520; /* Subtle block background */
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #38bdf8; /* Left accent border */
         }
+
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+
         .degree {
             font-weight: bold;
             font-size: 16px;
+            color: #ffffff;
         }
-        .college {
-            margin: 4px 0;
+
+        .date {
             font-size: 14px;
+            color: #94a3b8;
+            font-weight: bold;
+            white-space: nowrap;
         }
+
+        .college {
+            margin: 2px 0 10px 0;
+            color: #38bdf8; /* Accent color for institution */
+            font-weight: bold;
+            font-size: 15px;
+        }
+
         .details {
             font-size: 14px;
             line-height: 1.6;
+            color: #cbd5e1;
         }
     </style>
 </head>
@@ -35,21 +68,28 @@
 
     <h2>Education</h2>
 
-    <div class="edu">
-        <div class="degree">Bachelor of Technology (B.Tech) – Computer Science and Engineering</div>
-        <div class="college">Vellore Institute of Technology (VIT), Chennai</div>
+    <div class="edu-block">
+        <div class="header-row">
+            <div class="degree">B.Tech Computer Science and Engineering (AI & Robotics)</div>
+            <div class="date">2024 - 2028</div>
+        </div>
+        <div class="college">Vellore Institute of Technology, Chennai</div>
         <div class="details">
-            Currently pursuing undergraduate studies with a focus on computer science
-            fundamentals, programming, and software development.
+            Currently pursuing a Bachelor of Technology degree with a focus on computer 
+            science fundamentals, artificial intelligence, robotics, and software 
+            [cite_start]development concepts[cite: 32, 33, 34, 35].
         </div>
     </div>
 
-    <div class="edu">
-        <div class="degree">Bachelor of Science (BS) – Data Science and Programming</div>
-        <div class="college">Indian Institute of Technology (IIT) Madras (Online)</div>
+    <div class="edu-block">
+        <div class="header-row">
+            <div class="degree">BS Data Science and Applications</div>
+            <div class="date">2024 - 2028</div>
+        </div>
+        <div class="college">Indian Institute of Technology, Madras</div>
         <div class="details">
-            Online degree program focusing on data science, programming concepts,
-            and analytical problem-solving skills.
+            Currently pursuing a Bachelor of Science degree with emphasis on data science 
+            [cite_start]fundamentals, programming, data analysis, and computational methods[cite: 36, 37, 38, 39].
         </div>
     </div>
 
